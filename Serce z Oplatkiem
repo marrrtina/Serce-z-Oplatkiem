@@ -1,0 +1,51 @@
+
+```html
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Serce z Opłatkiem</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+            padding: 50px;
+        }
+        .charity-info {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 0 auto;
+            width: 70%;
+            max-width: 400px;
+        }
+        .bank-details {
+            font-size: 18px;
+            margin-top: 20px;
+        }
+        .bank-details input {
+            width: 100%;
+            border: none;
+            background: transparent;
+            text-align: center;
+            font-size: 16px;
+            margin-top: 10px;
+            padding: 8px;
+            border-bottom: 1px solid #333;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="charity-info">
+        <h1>Serce z Opłatkiem</h1>
+        <p>Numer konta bankowego do wpłat charytatywnych:</p>
+        <div class="bank-details">
+            <input type="text" value="PL12 3456 7890 1234 5678 9012" readonly id="bankAccount">
+        </div>
+    </div>
+</body>
+</html>
+```
